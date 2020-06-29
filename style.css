@@ -1,9 +1,13 @@
 body{
+    margin: 0;
     font-family: 'Pangolin', cursive;
 }
 h1{
     font-size:50px;
 
+}
+h2{
+    font-size: 30px;
 }
 .name-highlight{
     color: orange;
@@ -16,4 +20,59 @@ h1{
 }
 .half img{
       width: 100%;
+}
+.top-banner{
+    background-image: url("images/top-banner.png");
+    background-repeat: no-repeat;
+}
+section{
+    height: 500px;
+    padding-bottom: 150px;
+}
+.paragraph{
+   text-align: justify;
+}
+.link{
+    text-decoration: none;
+    background-image: linear-gradient(45deg, lightSalmon,tomato);
+    padding: 10px 20px;
+    border-radius: 5px;
+    color:white;
+    font-weight: 700px;
+}
+.link:hover{
+         color: indianred;
+         font-size: 20px;
+         background-color: lawngreen;
+    }
+.newhelf{
+   width: 40%;
+   float: left;
+   margin-left: 5%;
+   padding-left: 2%;
+}
+.newhelf img{
+    width:100%;
+}
+.new{
+   text-align:justify; 
+}
+.newhelf p{
+    text-align: justify;
+    font-size: medium;
+    font-weight: 500px;
+}
+.hello{
+    color: royalblue;
+}
+.half p{
+    color: dimgray;
+}
+.newhelf p{
+    color: dimgrey;
+}
+.right{
+    background-image: url("images/dream-bg.png");
+    background-repeat: no-repeat;
+    background-position: right;
 }
