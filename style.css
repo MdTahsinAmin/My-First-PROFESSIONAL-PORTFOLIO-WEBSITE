@@ -1,6 +1,5 @@
 body{
-    margin: 0;
-    font-family: 'Pangolin', cursive;
+    font-family: 'Poppins', sans-serif;
 }
 h1{
     font-size:50px;
@@ -75,4 +74,45 @@ section{
     background-image: url("images/dream-bg.png");
     background-repeat: no-repeat;
     background-position: right;
+}
+.h{
+    color: dimgrey;
+}
+.head{
+    color: dodgerblue;
+}
+.para{
+    text-align: justify;
+}
+.Hero{
+    color:blue;
+}
+#ok{
+  color: brown;
+}
+.single-exp{
+    box-shadow: 10px 10px 40px grey;
+    border-radius: 5px;
+    height: 75%;
+}
+.exparea{
+    background-image: url("images/exp-bg.png");
+    background-repeat:no-repeat;
+    background-position: left;
+    background-size: 100px;
+}
+#full-stack{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg,lightSalmon,tomato);
+    border-image-slice: 1;
+}
+#noob{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg,blue,cyan);
+    border-image-slice: 1;
+}
+#copyright{
+    text-align:center;
+    color: grey;
+    font-size: 20px;
 }
